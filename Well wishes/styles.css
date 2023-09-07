@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+
+.box {
+    height: 300px;
+    max-width: 50%;
+    margin: 175px;
+    border: 15px solid black;
+    border-radius: 10%;
+    position: static;
+    
+   
+}
+
+.inner-box {
+    background-color: azure;
+    height: 100%;
+    width: 100%;
+    border-radius: 5%;
+    color:black;
+    font-size: larger;
+    
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+    max-width: 300px;
+    
+}
+
+.button {
+    display: block;
+    z-index: 1;
+    height: 100px;
+    width: 200px;
+    border: solid 5px;
+    position: relative;
+    margin: auto;
+    top: 80px;
+    border-radius: 5%;
+    background-color: ghostwhite;
+  }
